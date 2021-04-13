@@ -1,0 +1,14 @@
+{
+  "name": "File system Task",
+  "version": "1.0.0",
+  "description": "File system Task by the zuri-Team",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
