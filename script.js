@@ -18,10 +18,12 @@ axios
 //Writing the JSON data to a new file called in the results directory called "posts.json"
     fs.writeFile("result/posts.json", jsonData, (err) => {
 
-// Error/ success message
+// Error/ success message from the fs module
       err ? console.log(err) : console.log("Wrote file successfully");
     });
   })
+
+// Throwing an error if unsuccessful
   .catch((error) => {
     console.log(error);
   });
